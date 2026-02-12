@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Work Sans', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header_text {
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+    color: #d32f2f;
+    margin-bottom: 30px;
+}
+
+.gif_container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .header_text {
+        font-size: 2.5em;
+    }
+}
